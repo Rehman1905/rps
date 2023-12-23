@@ -37,6 +37,7 @@ function qalibGelen(){
     hesabCixard(1)
   } else {
     alert("draw")
+    hesabCixard(0)
   }
 }
 function hesabNecedir(){
@@ -50,7 +51,7 @@ function hesabNecedir(){
 function hesabCixard(say){
   if(say==1){
     x++
-  }else{
+  }else if(say==2){
     y++
   }
   alert(`${x},${y}`)
